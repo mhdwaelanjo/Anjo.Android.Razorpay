@@ -1,7 +1,7 @@
 # Anjo.Android.Razorpay
 
 ---------------------------------
-Razorpay SDK for Xamarin Android Binding Library - Wael Anjo
+Razorpay SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
 ---------------------------------
 
 Razorpay aims to revolutionize money management for online businesses by providing clean, developer-friendly APIs and hassle-free integration. We offer a fast, affordable and 

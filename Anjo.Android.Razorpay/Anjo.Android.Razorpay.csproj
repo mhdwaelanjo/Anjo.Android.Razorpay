@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Razorpay</PackageId>
-		<PackageVersion>1.6.29</PackageVersion>
-		<AssemblyVersion>1.6.29</AssemblyVersion>
-		<FileVersion>1.6.29</FileVersion>
-		<Version>1.6.29</Version>
+		<PackageVersion>1.6.30</PackageVersion>
+		<AssemblyVersion>1.6.30</AssemblyVersion>
+		<FileVersion>1.6.30</FileVersion>
+		<Version>1.6.30</Version>
 		<Title>Anjo Android Razorpay SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Razorpay</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Razorpay SDK</Description>
-		<PackageReleaseNotes>Razorpay SDK v1.6.29</PackageReleaseNotes>
+		<PackageReleaseNotes>Razorpay SDK v1.6.30</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2023 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, Razorpay, payments, checkout</PackageTags>
 		<Summary>.NET for Android (formerly Xamarin.Android) Binding Library - Razorpay SDK</Summary>
@@ -38,13 +38,13 @@
 		</None>
 	</ItemGroup>
   <ItemGroup>
-    <None Remove="Jars\checkout-1.6.29.aar" />
+    <None Remove="Jars\checkout-1.6.30.aar" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="120.4.0.1" />
     <PackageReference Include="Xamarin.GooglePlayServices.Auth.Api.Phone" Version="118.0.1.3" />
     <PackageReference Include="Xamarin.GooglePlayServices.Tasks" Version="118.0.2.1" />
     <PackageReference Include="Xamarin.GooglePlayServices.Wallet" Version="119.1.0.3" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.8.10" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.8.20" />
   </ItemGroup>
 </Project>
