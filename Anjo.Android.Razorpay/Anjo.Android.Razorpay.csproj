@@ -7,19 +7,19 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Razorpay</PackageId>
-		<PackageVersion>1.6.38</PackageVersion>
-		<AssemblyVersion>1.6.38</AssemblyVersion>
-		<FileVersion>1.6.38</FileVersion>
-		<Version>1.6.38</Version>
+		<PackageVersion>1.6.39</PackageVersion>
+		<AssemblyVersion>1.6.39</AssemblyVersion>
+		<FileVersion>1.6.39</FileVersion>
+		<Version>1.6.39</Version>
 		<Title>Anjo Android Razorpay SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Razorpay</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Razorpay SDK</Description>
-		<PackageReleaseNotes>Razorpay SDK v1.6.38</PackageReleaseNotes>
+		<PackageReleaseNotes>Razorpay SDK v1.6.39</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Razorpay, payments, checkout</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Razorpay, payments, checkout</PackageTags>
 		<Summary>Razorpay's easy to integrate and lightweight SDK to accept payments on Android devices</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -28,6 +28,9 @@
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Jars\checkout-1.6.39.aar" />
+	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
 			<Pack>True</Pack>
@@ -42,9 +45,6 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
-  <ItemGroup>
-    <None Remove="Jars\checkout-1.6.38.aar" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="120.7.0.2" />
     <PackageReference Include="Xamarin.GooglePlayServices.Auth.Api.Phone" Version="118.0.1.8" />
