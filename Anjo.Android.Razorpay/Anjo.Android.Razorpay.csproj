@@ -1,24 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 		<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
+		<TargetFrameworks>net9.0-android;net8.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Razorpay</PackageId>
-		<PackageVersion>1.6.39</PackageVersion>
-		<AssemblyVersion>1.6.39</AssemblyVersion>
-		<FileVersion>1.6.39</FileVersion>
-		<Version>1.6.39</Version>
+		<PackageVersion>1.6.41.1</PackageVersion>
+		<AssemblyVersion>1.6.41.1</AssemblyVersion>
+		<FileVersion>1.6.41.1</FileVersion>
+		<Version>1.6.41.1</Version>
 		<Title>Anjo Android Razorpay SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Razorpay</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Razorpay SDK</Description>
-		<PackageReleaseNotes>Razorpay SDK v1.6.39</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
+		<PackageReleaseNotes>Razorpay SDK v1.6.41</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Razorpay, payments, checkout</PackageTags>
 		<Summary>Razorpay's easy to integrate and lightweight SDK to accept payments on Android devices</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\checkout-1.6.39.aar" />
+	  <None Remove="Jars\checkout-1.6.41.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,10 +46,10 @@
 		</None>
 	</ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="120.7.0.2" />
-    <PackageReference Include="Xamarin.GooglePlayServices.Auth.Api.Phone" Version="118.0.1.8" />
-    <PackageReference Include="Xamarin.GooglePlayServices.Tasks" Version="118.0.2.6" />
-    <PackageReference Include="Xamarin.GooglePlayServices.Wallet" Version="119.2.1.2" />
-    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.23" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="121.3.0.1" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Auth.Api.Phone" Version="118.1.0.4" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Tasks" Version="118.2.0.4" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Wallet" Version="119.4.0.4" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.21.2" />
   </ItemGroup>
 </Project>
